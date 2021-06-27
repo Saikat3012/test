@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "854771129638",
+    "project_id": "rnlogin-59096",
+    "storage_bucket": "rnlogin-59096.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854771129638:android:853283eed6415950f4f5e7",
+        "android_client_info": {
+          "package_name": "com.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854771129638-nk9a60skp3trirlieno54cmbolnpgsum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCForxgLtOnKgXejcojS0ymgUgF01lGTpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854771129638-nk9a60skp3trirlieno54cmbolnpgsum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
