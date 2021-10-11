@@ -1,21 +1,24 @@
-import { StatusBar } from 'expo-status-bar';
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ * @flow strict-local
+ */
+
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import AppNavigator from './src/AppNavigator';
+import { Provider as PaperProvider } from 'react-native-paper';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default class App extends React.Component {
+  constructor(props: any) {
+    super(props)
+  }
+  render() {
+    return (
+      <PaperProvider>
+        <AppNavigator />
+      </PaperProvider>
+    )
+  }
+} 
